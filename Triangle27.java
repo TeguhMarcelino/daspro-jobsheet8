@@ -18,7 +18,7 @@ public class Triangle27 {
     
         }
         i = n;
-        while (i >= 0){
+        while (i > 0){
             int j = 0 ;
             while (j < i) {
                 System.out.print("*");
