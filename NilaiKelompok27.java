@@ -24,7 +24,7 @@ import java.util.Scanner;
                             System.out.print("  Nilai dari penilai  " + j + ": ");
                             nilai = sc.nextInt();
                             if (nilai < 0 || nilai > 100) {
-                                System.out.println("Nilai harus 0-100. Ulangi inpu!");
+                                System.out.println("Nilai harus 0-100. Ulangi input!");
                             } 
                         } while (nilai <0 || nilai >100);
                         totalNilai += nilai;
